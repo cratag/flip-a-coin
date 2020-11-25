@@ -8,10 +8,7 @@ bottom: 10,
 },
 
 buggedButton: {
-position: "absolute",
-marginTop: 430,
-marginLeft: 135,
-alignContent: "center",
+alignSelf: "center",
 borderWidth: 15,
 borderColor: '#e5c45d',
 backgroundColor: '#e5c45d',
@@ -20,13 +17,15 @@ borderRadius: 100,
 },
 
 coinLogo:{
-margin: 60,
-marginLeft: 35
+    alignSelf: "center",
+    margin: "10%",
+    marginBottom: "3%",    
 },
 
 container: {
 backgroundColor: "#f9e198",
-flex: 1
+height: "100%",
+width: "100%"
 },
 
 flipACoin: {
@@ -37,23 +36,19 @@ marginLeft: 70
 },
 
 flippedText: { 
-fontSize: 40,
-margin: 150,
-marginTop: -60,
-width: 500,
+fontSize: 60,
+alignSelf: "center",
 fontFamily: "porky",
 color: "black",
 },
 
 
 image: {
-alignItems: "center",
-margin: 35,
-marginTop: 50,
+alignSelf: "center",
+marginTop: "5%",
 },
 
 saveButton: {
-marginTop: -80,
 alignContent: "center",
 borderWidth: 2,
 borderColor: '#e5c45d',

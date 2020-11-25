@@ -13,7 +13,7 @@ function tails({navigation}) {
       <Image source={require("../assets/tails.png")}
           style={styles.image}
         ></Image>
-        <Text style={styles.flippedText}> Tails</Text>
+        <Text style={styles.flippedText}> Tails </Text>
         <TouchableOpacity style={styles.buggedButton}
         onPress={()=> {navigation.navigate('Home')}}>
         <Text style={styles.saveButtonText}>Flip again!</Text>

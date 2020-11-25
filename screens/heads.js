@@ -14,7 +14,7 @@ function heads({navigation}) {
           style={styles.image}
         ></Image>
         <View style={styles.flippedTextBorder}>
-        <Text style={styles.flippedText}>Heads</Text>
+        <Text style={styles.flippedText}> Heads </Text>
         </View>
         <TouchableOpacity style={styles.buggedButton}
         onPress={()=> {navigation.navigate('Home')}}>
