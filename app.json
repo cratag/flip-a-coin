@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FlipACoin",
+    "slug": "FlipACoin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#f4d684"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#f4d684"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544/6300978111"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
